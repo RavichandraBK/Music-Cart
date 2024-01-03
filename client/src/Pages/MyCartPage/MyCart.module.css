@@ -1,0 +1,247 @@
+.myCartLogo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10vmin;
+}
+.myCartLogo > div:nth-child(1) {
+  margin-left: 5vmin;
+}
+.cartButton > button {
+  margin-right: 4vmin;
+  width: 25vmin;
+  height: 5.08vmin;
+  border-radius: 6.4vmin;
+  background-color: #1d7000;
+  border: none;
+  cursor: pointer;
+  font-family: Roboto;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #fff;
+}
+.cartButton > button > img {
+  vertical-align: middle;
+}
+.backBtn > button {
+  width: 23vmin;
+  height: 6vmin;
+  background-color: #2e0052;
+  border: none;
+  border-radius: 1.9vmin;
+  margin-top: 2vmin;
+  margin-left: 6vmin;
+  cursor: pointer;
+
+  font-family: Roboto;
+  font-size: 2.3vmin;
+  font-weight: 500;
+  line-height: 4.49vmin;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #fff;
+}
+.cartBag {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cartBag > p {
+  margin-left: 2vmin;
+  margin-top: 5vmin;
+  font-family: Roboto;
+  font-size: 3.44vmin;
+  font-weight: 700;
+  line-height: 2.5vmin;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.cartBag > img {
+  width: 5vmin;
+  height: 5vmin;
+  vertical-align: middle;
+}
+.cart {
+  display: flex;
+}
+.cartLeft {
+  width: 140vmin;
+  margin-left: 8vmin;
+}
+.items {
+  max-height: 25vmin;
+  overflow-y: scroll;
+}
+.items::-webkit-scrollbar {
+  width: 0.9vmin;
+}
+.items::-webkit-scrollbar-track {
+  display: none;
+}
+.items::-webkit-scrollbar-thumb {
+  background-color: #e1e1e1;
+  border-radius: 2vmin;
+}
+.cartItems {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3vmin;
+}
+.itemImage {
+  width: fit-content;
+  height: fit-content;
+  border: 0.5vmin solid;
+  border-radius: 2vmin;
+  overflow: hidden;
+}
+.itemImage > img {
+  width: 20vmin;
+  height: 20vmin;
+}
+.itemBrand > p:nth-child(1),
+.itemPrice > p:nth-child(1),
+.itemQty > p:nth-child(1),
+.itemTotal > p:nth-child(1) {
+  font-family: Roboto;
+  font-size: 3.08vmin;
+  font-weight: 600;
+  line-height: 0vmin;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.itemBrand > p:nth-child(2),
+.itemBrand > p:nth-child(3) {
+  font-family: Roboto;
+  font-size: 2.6vmin;
+  font-weight: 400;
+  line-height: 3vmin;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #a2a2a2;
+}
+.itemBrand > p:nth-child(3) {
+  line-height: 0vmin;
+}
+.itemPrice > p:nth-child(2),
+.itemTotal > p:nth-child(2) {
+  font-family: Roboto;
+  font-size: 2.6vmin;
+  font-weight: 400;
+  line-height: 3vmin;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.itemQty > select {
+  width: 10vmin;
+}
+.itemTotal {
+  margin-right: 5vmin;
+}
+.barType1 {
+  width: 140vmin;
+  border: 0.06vmin solid #e1e1e1;
+}
+.barType2 {
+  border: 0.05vmin solid #e1e1e1;
+  /* width: .2vmin; */
+  height: 0.2vmin;
+  transform: scaleY(90);
+  /* margin-left: 10vmin; */
+  margin-top: 18vmin;
+}
+.barType3 {
+  width: 140vmin;
+  border: 0.06vmin solid #e1e1e1;
+  margin-top: 3vmin;
+}
+.itemCount {
+  display: flex;
+  justify-content: space-evenly;
+}
+.itemCount > p:nth-child(1) {
+  margin-left: 30vmin;
+  font-family: Roboto;
+  font-size: 3.08vmin;
+  font-weight: 500;
+  line-height: 0vmin;
+  letter-spacing: 0em;
+  /* text-align: left; */
+  text-align: center;
+}
+.itemCount > p:nth-child(2) {
+  margin-left: 75vmin;
+  font-family: Roboto;
+  font-size: 3.08vmin;
+  font-weight: 500;
+  line-height: 0vmin;
+  letter-spacing: 0em;
+  /* text-align: left; */
+  text-align: center;
+}
+.cartRight {
+  margin-left: 2vmin;
+  line-height: 0px;
+}
+.cartRight > p:nth-child(1) {
+  font-family: Roboto;
+  font-size: 3.08vmin;
+  font-weight: 600;
+  line-height: 0vmin;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.cartRight > div {
+  display: flex;
+  font-family: Roboto;
+  font-size: 2.6vmin;
+  font-weight: 400;
+  line-height: 0vmin;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.cartRight > div > p:nth-child(1) {
+  width: 20vmin;
+}
+.cartRight > div > p:nth-child(2) {
+  margin-left: 5vmin;
+}
+
+.totalText {
+  display: flex;
+  margin-top: 6.3vmin;
+  font-family: Roboto;
+  font-size: 3.08vmin;
+  font-weight: 500;
+  line-height: 0vmin;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.totalText > p {
+  font-family: Roboto;
+  font-size: 3.08vmin;
+  font-weight: 600;
+  line-height: 0vmin;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.cartRight > button {
+  width: 35vmin;
+  height: 5vmin;
+  border-radius: 1.49vmin;
+  border: none;
+  background-color: #ffd600;
+  margin-top: 3vmin;
+  cursor: pointer;
+
+  font-family: Roboto;
+  font-size: 2.7vmin;
+  font-weight: 600;
+  line-height: 3vmin;
+  letter-spacing: 0.02em;
+  text-align: center;
+}

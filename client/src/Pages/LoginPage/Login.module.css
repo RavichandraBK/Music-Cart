@@ -1,0 +1,277 @@
+.loginLogo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2vmin;
+}
+.loginOutline {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5vmin;
+}
+.loginBoxBorder {
+  text-align: center;
+  border-radius: 3.26vmin;
+  border: 3px solid #d9d9d9;
+  width: 60vmin;
+  height: 55vmin;
+}
+.loginBox {
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+}
+.signInLogo {
+  font-family: Roboto;
+  font-size: 6.67vmin;
+  font-weight: 400;
+  line-height: 0px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.loginText1 > label {
+  display: block;
+  margin-left: 1vmin;
+  font-family: Roboto;
+  font-size: 1.9vmin;
+  font-weight: 600;
+  line-height: 3.54vmin;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.loginText1 > input {
+  width: 50vmin;
+  height: 6vmin;
+  border-radius: 1.08vmin;
+  border: 2px solid #b6b6b6;
+}
+.loginText2 > label {
+  display: block;
+  margin-top: 2vmin;
+  margin-left: 1vmin;
+  font-family: Roboto;
+  font-size: 1.9vmin;
+  font-weight: 600;
+  line-height: 3.54vmin;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.loginText2 > input {
+  width: 50vmin;
+  height: 6vmin;
+  border-radius: 1.08vmin;
+  border: 2px solid #b6b6b6;
+}
+.loginBox > button {
+  width: 52vmin;
+  height: 5vmin;
+  border-radius: 8px;
+  margin-top: 4vmin;
+  color: #fff;
+  background-color: #2e0052;
+  border: none;
+  cursor: pointer;
+  font-family: Roboto;
+  font-size: 3vmin;
+  font-weight: 500;
+  line-height: 2.3vmin;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.loginCond {
+  width: 50vmin;
+  font-family: Roboto;
+  font-size: 1.85vmin;
+  font-weight: 400;
+  line-height: 3.54vmin;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.loginLine {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2vmin;
+}
+.loginLine > div:nth-child(1) {
+  width: 18vmin;
+  margin-top: 0.2vmin;
+  margin-right: 3vmin;
+  border: 0.2vmin solid #bdbdbd;
+}
+.loginLine > div:nth-child(3) {
+  width: 18vmin;
+  margin-top: 0.2vmin;
+  margin-left: 3vmin;
+  border: 0.2vmin solid #bdbdbd;
+}
+.loginNav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2vmin;
+}
+.loginNav > div > p {
+  font-family: Roboto;
+  font-size: 2.9vmin;
+  font-weight: 400;
+  line-height: 0;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.loginNav > div:nth-child(1) {
+  width: 60vmin;
+  height: 6.5vmin;
+  border: 0.27vmin solid #bdbdbd;
+  border-radius: 1.36vmin;
+  cursor: pointer;
+}
+.invalid{
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  font-family: Roboto;
+  font-size: 2vmin;
+  font-weight: 500;
+  line-height: 0vmin;
+  text-align: center;
+  color: #F81221;
+}
+@media only screen and (max-width:391px){
+  .welComeTxt{
+    margin-top: 20vmin;
+    margin-left: 8vmin;
+    font-family: Roboto;
+font-size: 10vmin;
+font-weight: 400;
+line-height: 4vmin;
+letter-spacing: 0em;
+text-align: left;
+color: #2E0052;
+  }
+  .loginBoxBorder {
+    text-align: center;
+    border-radius: 2.26vmin;
+    border: 3px solid #d9d9d9;
+    width: 85vmin;
+    height: 85vmin;
+  }
+  .signInLogo {
+    font-family: Roboto;
+    font-size: 6.67vmin;
+    font-weight: 600;
+    line-height: 3vmin;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .signInLogo>span{
+    font-family: Roboto;
+font-size: 6vmin;
+font-weight: 300;
+line-height: 0vmin;
+letter-spacing: 0em;
+text-align: left;
+  }
+  .loginBox {
+    display: inline-block;
+  }
+  .loginText1 > label {
+    display: block;
+    margin-top: 6vmin;
+    margin-left: 1vmin;
+    font-family: Roboto;
+    font-size: 3.9vmin;
+    font-weight: 600;
+    line-height: 6.54vmin;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .loginText1 > input {
+    width: 75vmin;
+    height: 8vmin;
+    border-radius: 1.08vmin;
+    border: 2px solid #b6b6b6;
+  }
+  .loginText2 > label {
+    display: block;
+    margin-top: 4vmin;
+    margin-left: 1vmin;
+    font-family: Roboto;
+    font-size: 3.9vmin;
+    font-weight: 600;
+    line-height: 6.54vmin;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .loginText2 > input {
+    width: 75vmin;
+    height: 8vmin;
+    border-radius: 1.08vmin;
+    border: 2px solid #b6b6b6;
+  }
+  .loginBox > button {
+    width: 78vmin;
+    height: 10vmin;
+    border-radius: 8px;
+    margin-top: 5vmin;
+    color: #fff;
+    background-color: #2e0052;
+    border: none;
+    cursor: pointer;
+    font-family: Roboto;
+    font-size: 5vmin;
+    font-weight: 500;
+    line-height: 2.3vmin;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+  .loginCond {
+    width: 65vmin;
+    margin-left: 2vmin;
+    font-family: Roboto;
+    font-size: 2.85vmin;
+    font-weight: 400;
+    line-height: 3.54vmin;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .loginLine > div:nth-child(1) {
+    width: 23vmin;
+    margin-top: 0.2vmin;
+    margin-right: 3vmin;
+    border: 0.2vmin solid #bdbdbd;
+  }
+  .loginLine > div:nth-child(3) {
+    width: 23vmin;
+    margin-top: 0.2vmin;
+    margin-left: 3vmin;
+    border: 0.2vmin solid #bdbdbd;
+  }
+  .loginNav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2vmin;
+  }
+  .loginNav > div > p {
+    font-family: Roboto;
+    font-size: 4.9vmin;
+    font-weight: 400;
+    line-height: 0;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+  .loginNav > div:nth-child(1) {
+    width: 80vmin;
+    height: 9.5vmin;
+    border: 0.27vmin solid #bdbdbd;
+    border-radius: 1.36vmin;
+    cursor: pointer;
+  }
+  .invalid{
+    font-size: 2.8vmin;
+  }
+}

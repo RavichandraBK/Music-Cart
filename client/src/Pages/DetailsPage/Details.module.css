@@ -1,0 +1,226 @@
+.appLogo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10vmin;
+}
+.appLogo > div:nth-child(1) {
+  margin-left: 5vmin;
+}
+.cartButton > button {
+  margin-right: 4vmin;
+  width: 25vmin;
+  height: 5.08vmin;
+  border-radius: 6.4vmin;
+  background-color: #1d7000;
+  border: none;
+  cursor: pointer;
+  font-family: Roboto;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #fff;
+}
+.cartButton > button > img {
+  vertical-align: middle;
+}
+.backBtn > button {
+  width: 23vmin;
+  height: 6vmin;
+  background-color: #2e0052;
+  border: none;
+  border-radius: 1.9vmin;
+  margin-top: 2vmin;
+  margin-left: 6vmin;
+  cursor: pointer;
+
+  font-family: Roboto;
+  font-size: 2.3vmin;
+  font-weight: 500;
+  line-height: 4.49vmin;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #fff;
+}
+.briefDesc {
+  width: 175vmin;
+  margin-left: 7vmin;
+  font-family: Roboto;
+  font-size: 3.8vmin;
+  font-weight: 600;
+  line-height: 5vmin;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.details {
+  display: flex;
+  margin-bottom: 20vmin;
+}
+.detailsLeft {
+  margin-left: 5vmin;
+}
+.detailsLeft > div:nth-child(1) {
+  border: 0.8vmin solid #000;
+  border-radius: 5vmin;
+  overflow: hidden;
+}
+
+.detailsLeft > div:nth-child(1) > img {
+  width: 90vmin;
+  height: 90vmin;
+}
+.detailedImages {
+  display: flex;
+  flex-wrap: wrap;
+  max-height: 24vmin;
+  max-width: 90vmin;
+  overflow-y: scroll;
+  margin-top: 2vmin;
+}
+.detailedImages::-webkit-scrollbar {
+  width: 2vmin;
+}
+.detailedImages::-webkit-scrollbar-track {
+  display: none;
+  margin-left: 0vmin;
+}
+.detailedImages::-webkit-scrollbar-thumb {
+  margin-left: 10vmin;
+  border-radius: 5vmin;
+  background-color: #e1e1e1;
+}
+.detailedImages > div {
+  width: 20vmin;
+  height: 20vmin;
+  margin-left: 2vmin;
+  margin-top: 2vmin;
+  border: 0.5vmin solid #000;
+  border-radius: 2vmin;
+  overflow: hidden;
+}
+.detailedImages > div > img {
+  width: 20vmin;
+  height: 20vmin;
+}
+.detailsRight {
+  margin-left: 5vmin;
+  margin-top: 0vmin;
+}
+.prodName {
+  font-family: Roboto;
+  font-size: 5vmin;
+  font-weight: 600;
+  line-height: 6.5vmin;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.rating {
+  display: flex;
+}
+.rating > p {
+  margin-top: 2vmin;
+  margin-left: 2vmin;
+  font-family: Roboto;
+  font-size: 3vmin;
+  font-weight: 400;
+  line-height: 0vmin;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.rating > img {
+  width: 3vmin;
+  height: 3vmin;
+  vertical-align: top;
+}
+.headPrice {
+  font-family: Roboto;
+  font-size: 3.5vmin;
+  font-weight: 600;
+  line-height: 0vmin;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.headType {
+  font-family: Roboto;
+  font-size: 2.5vmin;
+  font-weight: 400;
+  line-height: 5vmin;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.desc {
+}
+.desc > p {
+  font-family: Roboto;
+  font-size: 2.5vmin;
+  font-weight: 400;
+  line-height: 0vmin;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.desc > ul {
+  font-family: Roboto;
+  font-size: 2.2vmin;
+  font-weight: 400;
+  line-height: 4vmin;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.avail {
+  font-family: Roboto;
+  font-size: 2.8vmin;
+  font-weight: 600;
+  line-height: 1.3vmin;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.avail > span {
+  font-family: Roboto;
+  font-size: 2.8vmin;
+  font-weight: 400;
+  line-height: 1.3vmin;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.brand {
+  font-family: Roboto;
+  font-size: 2.8vmin;
+  font-weight: 600;
+  line-height: 1.3vmin;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.brand > span {
+  font-family: Roboto;
+  font-size: 2.8vmin;
+  font-weight: 400;
+  line-height: 1.3vmin;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.buyBtns {
+  margin-top: 4vmin;
+}
+.buyBtns > button {
+  display: block;
+  width: 45vmin;
+  height: 5vmin;
+  border: none;
+  border-radius: 5.4vmin;
+
+  font-family: Roboto;
+  font-size: 3vmin;
+  font-weight: 400;
+  line-height: 1.5vmin;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.buyBtns > button:nth-child(1) {
+  background-color: #ffd600;
+}
+.buyBtns > button:nth-child(2) {
+  margin-top: 2vmin;
+  background-color: #ffb800;
+}
