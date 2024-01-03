@@ -1,0 +1,550 @@
+[
+  {
+    "name": "Sony WH-1000XM5",
+    "briefDescription": "Wireless headphones with industry-leading noise cancellation.",
+    "detailedDesc": {
+      "points": [
+        "Industry-leading noise cancellation for immersive audio experience.",
+        "Exceptional sound quality with rich detail and clear highs.",
+        "Comfortable design for all-day listening.",
+        "Up to 30 hours of battery life with ANC on."
+      ]
+    },
+    "type": "Over-Ear headphone",
+    "price": 25990,
+    "prodimage": "https://m.media-amazon.com/images/I/61vJtKbAssL._SL1500_.jpg",
+    "detailedImages": [
+      "https://m.media-amazon.com/images/I/81V1VCLb4oL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/81gW2Vb93RL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/81zk7HFkz7L._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/81kCCjRFZTL._SL1500_.jpg"
+    ],
+    "color": "Black",
+    "featured": true
+  },
+  {
+    "name": "Boat Airdopes Nirvana True Wireless Earbuds",
+    "briefDescription": "True wireless earbuds with active noise cancellation and clear calls.",
+    "detailedDesc": {
+      "points": [
+        "Active noise cancellation for blocking out distractions.",
+        "Enx™ technology for enhanced voice clarity on calls.",
+        "Up to 5 hours of playtime on a single charge, 50 hours with case.",
+        "Touch controls for music and calls.",
+        "IPX7 water resistance for sweat and splashproof durability."
+      ]
+    },
+    "type": "In-Ear headphone",
+    "price": 2999,
+    "prodimage": "https://m.media-amazon.com/images/I/31NmYU6aV-L._SX300_SY300_QL70_FMwebp_.jpg",
+    "detailedImages": [
+      "https://m.media-amazon.com/images/I/61XHnB47dOL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71RI0ca8nYL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/81T2xA++7xL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71Ul2urjqJL._SL1500_.jpg"
+    ],
+    "color": "Ivory White",
+    "featured": false
+  },
+  {
+    "name": "Ptron Bassbuds Plus True Wireless Earbuds",
+    "briefDescription": "Budget-friendly true wireless earbuds with powerful bass and long battery life.",
+    "detailedDesc": {
+      "points": [
+        "Powerful bass for an immersive listening experience.",
+        "Up to 4 hours of playtime on a single charge, 24 hours with case.",
+        "Touch controls for music and calls.",
+        "Compact and lightweight design for comfortable wear."
+      ]
+    },
+    "type": "In-Ear headphone",
+    "price": 999,
+    "prodimage": "https://m.media-amazon.com/images/I/61kezU7159L._SL1100_.jpg",
+    "detailedImages": [
+      "https://m.media-amazon.com/images/I/612ckkgvyiL._SL1100_.jpg",
+      "https://m.media-amazon.com/images/I/61+9RwsTF3L._SL1100_.jpg",
+      "https://m.media-amazon.com/images/I/61JIuXUCq4L._SL1100_.jpg",
+      "https://m.media-amazon.com/images/I/61-ctQ7-ddL._SL1100_.jpg"
+    ],
+    "color": "Black",
+    "featured": false
+  },
+  {
+    "name": "JBL Live 660NC",
+    "briefDescription": "Over-ear wireless headphones with adaptive noise cancellation and long battery life.",
+    "detailedDesc": {
+      "points": [
+        "Adaptive noise cancellation with Smart Ambient technology.",
+        "JBL Signature Sound with powerful bass.",
+        "Up to 50 hours of playtime with ANC on, 40 hours with Bluetooth only.",
+        "Speed Charge for 4 hours of playtime in 10 minutes.",
+        "Multi-point connection for seamless switching between devices."
+      ]
+    },
+    "type": "Over-ear headphone",
+    "price": 14999,
+    "prodimage": "https://m.media-amazon.com/images/I/61HrC2qBTwL._SL1500_.jpg",
+    "detailedImages": [
+      "https://m.media-amazon.com/images/I/61LFM24w3NS._SL1200_.jpg",
+      "https://m.media-amazon.com/images/I/5150DHv1uvS._SL1200_.jpg",
+      "https://m.media-amazon.com/images/I/61ASqSN2RVS._SL1200_.jpg",
+      "https://m.media-amazon.com/images/I/616yo2aTYRS._SL1200_.jpg"
+    ],
+    "color": "Black",
+    "featured": true
+  },
+  {
+    "name": "Zebronics ZEB-Arena Plus",
+    "briefDescription": "Gaming headphones with immersive surround sound and comfortable design.",
+    "detailedDesc": {
+      "points": [
+        "Virtual 7.1 surround sound for an immersive gaming experience.",
+        "Powerful bass and clear highs for accurate audio.",
+        "Comfortable ear cups with breathable mesh fabric.",
+        "Retractable microphone with mute button for clear communication.",
+        "Multi-platform compatibility for PC, Mac, PS4, PS5, Xbox One, and Xbox Series X/S."
+      ]
+    },
+    "type": "Over-Ear headphone",
+    "price": 2499,
+    "prodimage": "https://m.media-amazon.com/images/I/61Wyl9B6XxL._SL1500_.jpg",
+    "detailedImages": [
+      "https://m.media-amazon.com/images/I/61rMZCYatzL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/6144GANCpVL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71WX5c7bXqL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/61laJiIzb8L._SL1500_.jpg"
+    ],
+    "color": "White",
+    "featured": false
+  },
+  {
+    "name": "Boat Airdopes Curve True Wireless Earbuds",
+    "briefDescription": "Neckband-style earbuds with long battery life and IPX4 water resistance.",
+    "detailedDesc": {
+      "points": [
+        "Up to 24 hours of playtime on a single charge.",
+        "IPX4 water resistance for sweat and splashproof durability.",
+        "Enx™ technology for enhanced voice clarity on calls.",
+        "Magnetic earbuds for easy tangle-free storage.",
+        "Dual pairing to connect to two devices simultaneously."
+      ]
+    },
+    "type": "In-Ear headphone",
+    "price": 1499,
+    "prodimage": "https://m.media-amazon.com/images/I/51lrgMimpPL._SL1500_.jpg",
+    "detailedImages": [
+      "https://m.media-amazon.com/images/I/61qxfsV+QNL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/61emlzgyVJL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/61Oy2qf5I0L._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/51GeJsj8XjL._SL1500_.jpg"
+    ],
+    "color": "Carbon Black",
+    "featured": false
+  },
+  {
+    "name": "Ptron Bassbuds Pro Plus",
+    "briefDescription": "True wireless earbuds with hybrid active noise cancellation and ambient sound mode.",
+    "detailedDesc": {
+      "points": [
+        "Hybrid ANC for blocking out external noise.",
+        "Ambient sound mode for awareness of surroundings.",
+        "6mm dynamic drivers for powerful bass and clear sound.",
+        "Touch controls for music, calls, and volume.",
+        "Up to 4 hours of playtime on a single charge, 24 hours with case."
+      ]
+    },
+    "type": "In-Ear headphone",
+    "price": 1999,
+    "prodimage": "https://m.media-amazon.com/images/I/61kezU7159L._SL1100_.jpg",
+    "detailedImages": [
+      "https://m.media-amazon.com/images/I/61FjT9pypyL._SL1100_.jpg",
+      "https://m.media-amazon.com/images/I/610JBLp3XkL._SL1200_.jpg",
+      "https://m.media-amazon.com/images/I/61JIuXUCq4L._SL1100_.jpg",
+      "https://m.media-amazon.com/images/I/61IZ2VQYZ-L._SL1100_.jpg"
+    ],
+    "color": "Black",
+    "featured": false
+  },
+  {
+    "name": "Boat Rockerz 295T True Wireless Earbuds",
+    "briefDescription": "Budget-friendly earbuds with long battery life and touch controls.",
+    "detailedDesc": {
+      "points": [
+        "Up to 8 hours of playtime on a single charge, 48 hours with case.",
+        "Touch controls for music, calls, and volume.",
+        "IPX5 water resistance for sweat and splashproof durability.",
+        "Secure fit with snug earcups for comfortable wear.",
+        "Clear sound with balanced bass."
+      ]
+    },
+    "type": "In-Ear headphone",
+    "price": 999,
+    "prodimage": "https://m.media-amazon.com/images/I/61kqtJ-DrcL._SL1500_.jpg",
+    "detailedImages": [
+      "https://m.media-amazon.com/images/I/61HGFQMO36L._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/617knXIGtvL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/61BLvYadtYL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/61uKY+FnMWL._SL1500_.jpg"
+    ],
+    "color": "Black",
+    "featured": false
+  },
+  {
+    "name": "Ptron Truebuds Plus",
+    "briefDescription": "Stylish true wireless earbuds with transparent charging case.",
+    "detailedDesc": {
+      "points": [
+        "Stylish design with transparent charging case.",
+        "Touch controls for music, calls, and volume.",
+        "Up to 5 hours of playtime on a single charge, 25 hours with case.",
+        "Clear sound with punchy bass.",
+        "Lightweight and comfortable for all-day wear."
+      ]
+    },
+    "type": "In-Ear headphone",
+    "price": 1599,
+    "prodimage": "https://m.media-amazon.com/images/I/51xL3NajP9L._SL1100_.jpg",
+    "detailedImages": [
+      "https://m.media-amazon.com/images/I/61OiTxGIN3L._SL1100_.jpg",
+      "https://m.media-amazon.com/images/I/71KYiv5hJtL._SL1100_.jpg",
+      "https://m.media-amazon.com/images/I/61HFMm9kPsL._SL1100_.jpg",
+      "https://m.media-amazon.com/images/I/61EsACJjOXL._SL1100_.jpg"
+    ],
+    "color": "Black",
+    "featured": false
+  },
+  {
+    "name": "Marshall Major IV On-Ear Bluetooth Headphones",
+    "briefDescription": "Over-ear headphones with classic Marshall design and comfortable fit.",
+    "detailedDesc": {
+      "points": [
+        "Iconic Marshall design with leather ear cups and gold accents.",
+        "More than 80 hours of playtime on a single charge.",
+        "Multi-point connection to switch seamlessly between devices.",
+        "Foldable design for easy portability.",
+        "Clear sound with rich bass and smooth highs."
+      ]
+    },
+    "type": "On-Ear headphone",
+    "price": 14999,
+    "prodimage": "https://m.media-amazon.com/images/I/71mTfSKhhTL._SL1500_.jpg",
+    "detailedImages": [
+      "https://m.media-amazon.com/images/I/71QuEK+XuML._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71kTbjPQO3L._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71NFV42DkVL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71TJ0btVDJL._SL1500_.jpg"
+    ],
+    "color": "Black",
+    "featured": true
+  },
+  {
+    "name": "Sony MDR-ZX330BT Wireless On-Ear Headphones",
+    "briefDescription": "Affordable wireless headphones with long battery life and comfortable fit.",
+    "detailedDesc": {
+      "points": [
+        "Up to 30 hours of playtime on a single charge.",
+        "Lightweight and comfortable design for all-day wear.",
+        "Bluetooth connectivity for wireless freedom.",
+        "On-ear controls for music and calls.",
+        "Available in Black and Blue colors."
+      ]
+    },
+    "type": " On-Ear headphone",
+    "price": 2999,
+    "prodimage": "https://m.media-amazon.com/images/I/51vGmpKyULL._SL1000_.jpg",
+    "detailedImages": [
+      "https://m.media-amazon.com/images/I/51XYU7RYUfL._SL1000_.jpg",
+      "https://m.media-amazon.com/images/I/51AgF6arCbL._SL1000_.jpg",
+      "https://m.media-amazon.com/images/I/61VD7tBPSzL._SL1200_.jpg",
+      "https://m.media-amazon.com/images/I/51CjdbyctYL._SL1200_.jpg"
+    ],
+    "color": "Black",
+    "featured": false
+  },
+  {
+    "name": "Boat Airdopes 141 True Wireless Earbuds",
+    "briefDescription": "Simple and reliable earbuds with touch controls and decent sound quality.",
+    "detailedDesc": {
+      "points": [
+        "Up to 4 hours of playtime on a single charge.",
+        "Secure and comfortable fit for active use.",
+        "Touch controls for music and calls.",
+        "Clear sound with balanced bass.",
+        "Available in Black, White, and Blue colors."
+      ]
+    },
+    "type": "In-Ear headphone",
+    "price": 799,
+    "prodimage": "https://m.media-amazon.com/images/I/61KNJav3S9L._SL1500_.jpg",
+    "detailedImages": [
+      "https://m.media-amazon.com/images/I/61mEqp7RZXL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71LIlNW980L._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/61gsDrMq8pL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/61F5lcvJHLL._SL1500_.jpg"
+    ],
+    "color": "Black",
+    "featured": false
+  },
+  {
+    "name": "Sony MDR-XB650BT Wireless On-Ear Headphones",
+    "briefDescription": "Wireless headphones with Extra Bass technology for powerful sound.",
+    "detailedDesc": {
+      "points": [
+        "Extra Bass technology for deep, punchy bass.",
+        "Up to 30 hours of battery life on a single charge.",
+        "Lightweight and comfortable design for all-day wear.",
+        "Bluetooth connectivity for wireless freedom.",
+        "Available in Black, Blue, and Red colors."
+      ]
+    },
+    "type": "On-Ear headphone",
+    "price": 4999,
+    "prodimage": "https://m.media-amazon.com/images/I/51hs6s7-a4L._SL1000_.jpg",
+    "detailedImages": [
+      "https://m.media-amazon.com/images/I/51hs6s7-a4L._SL1000_.jpg"
+    ],
+    "color": "Blue",
+    "featured": false
+  },
+  {
+    "name": "Sony WF-C500 True Wireless Earbuds",
+    "briefDescription": "Compact and lightweight earbuds with splashproof design.",
+    "detailedDesc": {
+      "points": [
+        "Secure fit with snug ear tips for active use.",
+        "Splashproof design for workouts and rainy days.",
+        "Up to 20 hours of playtime with the charging case.",
+        "Touch controls for music, calls, and volume.",
+        "Available in Black, White, and Blue colors."
+      ]
+    },
+    "type": "In-Ear headphone",
+    "price": 3499,
+    "prodimage": "https://m.media-amazon.com/images/I/51FWQhUAjPL._SL1500_.jpg",
+    "detailedImages": [
+      "https://m.media-amazon.com/images/I/51jLa2T31kL._SL1397_.jpg",
+      "https://m.media-amazon.com/images/I/71UqyUbmhIL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/61EOwv3mn+L._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/61p7yW0RMNL._SL1500_.jpg"
+    ],
+    "color": "green",
+    "featured": false
+  },
+  {
+    "name": "JBL Tune 225TWS True Wireless Earbuds",
+    "briefDescription": "Budget-friendly earbuds with long battery life and comfortable fit.",
+    "detailedDesc": {
+      "points": [
+        "Up to 5 hours of playtime on a single charge, 25 hours with case.",
+        "Secure and comfortable fit for all-day wear.",
+        "Touch controls for music, calls, and volume.",
+        "Clear sound with punchy bass.",
+        "Available in Black, White, and Blue colors."
+      ]
+    },
+    "type": "In-Ear headphone",
+    "price": 1999,
+    "prodimage": "https://m.media-amazon.com/images/I/71L2otQRshL._SL1500_.jpg",
+    "detailedImages": [
+      "https://m.media-amazon.com/images/I/71oOYoYlxgL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/61O1deOZ1bL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/51C-sBZOqmL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/81eAejoqnfL._SL1500_.jpg"
+    ],
+    "color": "Black",
+    "featured": false
+  },
+  {
+    "name": "Boat Rockerz 450 Bluetooth Over-Ear Headphones",
+    "briefDescription": "Stylish headphones with long battery life and on-ear controls.",
+    "detailedDesc": {
+      "points": [
+        "Up to 15 hours of playtime on a single charge.",
+        "Comfortable and adjustable fit for all head sizes.",
+        "On-ear controls for music and calls.",
+        "Powerful sound with deep bass.",
+        "Available in Black, Blue, and Red colors."
+      ]
+    },
+    "type": "Over-Ear headphone",
+    "price": 1999,
+    "prodimage": "https://m.media-amazon.com/images/I/51xxA+6E+xL._SL1500_.jpg",
+    "detailedImages": [
+      "https://m.media-amazon.com/images/I/61S2z5PwUqL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/51LYseQyugL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71QDnQWrVNL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/710JwD0MP5L._SL1500_.jpg"
+    ],
+    "color": "Black",
+    "featured": false
+  },
+  {
+    "name": "Boat Airdopes 441 Pro True Wireless Earbuds",
+    "briefDescription": "Waterproof earbuds with clear calls and touch controls.",
+    "detailedDesc": {
+      "points": [
+        "IPX7 waterproof rating for complete water protection.",
+        "Enx™ technology for crystal-clear calls.",
+        "Up to 5 hours of playtime on a single charge, 25 hours with case.",
+        "Touch controls for music, calls, and volume.",
+        "Available in Black, White, and Blue colors."
+      ]
+    },
+    "type": "In-Ear headphone",
+    "price": 1799,
+    "prodimage": "https://m.media-amazon.com/images/I/51dySvoC+QL._SL1500_.jpg",
+    "detailedImages": [
+      "https://m.media-amazon.com/images/I/61BWZ7KWfqL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/61Fm4WDbOTL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/619nkxnuAkL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/61l532fAVPL._SL1500_.jpg"
+    ],
+    "color": "Black",
+    "featured": false
+  },
+  {
+    "name": "Sony WH-CH710N Wireless Noise-Cancelling Headphones",
+    "briefDescription": "Affordable ANC headphones with comfortable design.",
+    "detailedDesc": {
+      "points": [
+        "Artificial Intelligence Noise Cancellation (AINC) for adaptive noise reduction.",
+        "Up to 35 hours of battery life with ANC on, 45 hours with ANC off.",
+        "Lightweight and comfortable design for all-day wear.",
+        "Fast charging for 60 minutes of playback in 10 minutes.",
+        "Available in Black, Blue, and Gray colors."
+      ]
+    },
+    "type": "Over-Ear headphone",
+    "price": 5999,
+    "prodimage": "https://m.media-amazon.com/images/I/61rEoEQqn0L._SL1500_.jpg",
+    "detailedImages": [
+      "https://m.media-amazon.com/images/I/616JNlxRwKL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71PMxPpJC-L._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71W9TJNX0QL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71F1BvfJ7rL._SL1500_.jpg"
+    ],
+    "color": "Blue",
+    "featured": false
+  },
+  {
+    "name": "JBL Quantum 400 Wired Gaming Headset",
+    "briefDescription": "Affordable gaming headset with virtual surround sound.",
+    "detailedDesc": {
+      "points": [
+        "JBL QuantumSOUND Signature for immersive gaming audio.",
+        "QuantumSURROUND for accurate positional audio.",
+        "Detachable boom microphone with mute feature.",
+        "Lightweight and comfortable design for long gaming sessions.",
+        "Available in Black and Red colors."
+      ]
+    },
+    "type": "Over-Ear headphone",
+    "price": 2999,
+    "prodimage": "https://m.media-amazon.com/images/I/61XqT1iYszL._SL1500_.jpg",
+    "detailedImages": [
+      "https://m.media-amazon.com/images/I/61IhijfXl4L._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/61ArOS4uKjL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71vhzpPRMSL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/717efK0hWyL._SL1500_.jpg"
+    ],
+    "color": "Black",
+    "featured": false
+  },
+  {
+    "name": "Boat Nimble 100 Wireless Neckband Earphones",
+    "briefDescription": "Comfortable neckband with long battery life and dual pairing.",
+    "detailedDesc": {
+      "points": [
+        "Up to 30 hours of playtime on a single charge.",
+        "Magnetic earbuds for tangle-free storage.",
+        "Dual pairing to connect two devices simultaneously.",
+        "IPX4 water resistance for sweat and splash protection.",
+        "Available in Black, Blue, and Green colors."
+      ]
+    },
+    "type": "In-Ear headphone",
+    "price": 1499,
+    "prodimage": "https://m.media-amazon.com/images/I/51rY3q2EnkL._SL1500_.jpg",
+    "detailedImages": [
+      "https://m.media-amazon.com/images/I/51RRAbwnrEL._SL1200_.jpg",
+      "https://m.media-amazon.com/images/I/51WtxgsXG8L._SL1200_.jpg",
+      "https://m.media-amazon.com/images/I/61tLdbDfAGL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/519jJHAsj1L.jpg"
+    ],
+    "color": "Black",
+    "featured": true
+  },
+  {
+    "name": "Ptron Surge S900 Wireless Neckband Earphones",
+    "briefDescription": "Comfortable neckband with long battery life and balanced sound.",
+    "detailedDesc": {
+      "points": [
+        "Flexible neckband design for comfortable all-day wear.",
+        "Powerful sound with balanced bass for all genres.",
+        "Up to 24 hours of playtime on a single charge.",
+        "Built-in microphone for calls and online meetings.",
+        "Available in Black, Blue, and Grey colors."
+      ]
+    },
+    "type": "In-Ear headphone",
+    "price": 1499,
+    "prodimage": "https://m.media-amazon.com/images/I/51wqqtHjD4L._SL1200_.jpg",
+    "detailedImages": [
+      "https://m.media-amazon.com/images/I/61s6HNKX86L._SL1200_.jpg",
+      "https://m.media-amazon.com/images/I/61HOI8eY7DL._SL1200_.jpg",
+      "https://m.media-amazon.com/images/I/51X8IR34VFL._SL1200_.jpg",
+      "https://m.media-amazon.com/images/I/71a9pASCgfL._SL1200_.jpg"
+    ],
+    "color": "green",
+    "featured": false
+  },
+  {
+    "name": "Marshall Minor III Bluetooth In-Ear Earphones",
+    "briefDescription": "Compact and portable with signature Marshall sound.",
+    "detailedDesc": {
+      "points": [
+        "Classic Marshall sound with punchy bass.",
+        "Compact and lightweight design for portability.",
+        "Up to 15 hours of playtime on a single charge.",
+        "On-ear controls for music and calls.",
+        "Available in Black, Brown, and White colors."
+      ]
+    },
+    "type": "In-Ear headphone",
+    "price": 5999,
+    "prodimage": "https://m.media-amazon.com/images/I/71coMXf8VlL._SL1500_.jpg",
+    "detailedImages": [
+      "https://m.media-amazon.com/images/I/61-cWDuprOL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/61c-CI50n-L._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/61dgk4dMT8L._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/61j1mXXKjTL._SL1500_.jpg"
+    ],
+    "color": "Black",
+    "featured": false
+  },
+  {
+    "name": "Marshall Mid Bluetooth On-Ear Headphones",
+    "briefDescription": "Lightweight and foldable with long battery life for travel.",
+    "detailedDesc": {
+      "points": [
+        "Lightweight and foldable design for easy travel.",
+        "Comfortable fit for extended listening sessions.",
+        "Clear sound with good bass for various genres.",
+        "Up to 30 hours of playtime on a single charge.",
+        "On-ear controls for music and calls.",
+        "Available in Black and Cream colors."
+      ]
+    },
+    "type": "On-Ear headphone",
+    "price": 4999,
+    "prodimage": "https://m.media-amazon.com/images/I/71t+eSh4KyL._SL1500_.jpghttps://m.media-amazon.com/images/I/71t+eSh4KyL._SL1500_.jpg",
+    "detailedImages": [
+      "https://m.media-amazon.com/images/I/71oMBo2TPuL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71evHCBWDyL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/81VAr1G+-ZL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71ye90+RDAL._SL1500_.jpg"
+    ],
+    "color": "Black",
+    "featured": true
+  }
+]

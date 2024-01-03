@@ -1,0 +1,46 @@
+.bedCrums {
+  display: flex;
+  height: 10vmin;
+  cursor: pointer;
+  /* margin-top: 3vmin; */
+  align-items: center;
+}
+
+.logoText{
+  margin-left: 1vmin;
+  font-family: Roboto;
+  font-size: 5.99vmin;
+  font-weight: 600;
+  line-height: 0px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #2e0052;
+}
+
+.bedCrums > img {
+  vertical-align: middle;
+  width: 8.58vmin;
+  height: 8.58vmin;
+  /* margin-left: 4vmin; */
+}
+.bedCrumsText {
+  margin-top: 3.5vmin;
+  margin-left: 2vmin;
+  font-family: Roboto;
+  font-size: 2.54vmin;
+  font-weight: 400;
+  line-height: 0px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+@media only screen and (max-width:391px) {
+  .logoText{
+    margin-left: 1vmin;
+  font-family: Roboto;
+  font-weight: 600;
+  line-height: 0px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #fff;
+  }
+}
