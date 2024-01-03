@@ -50,7 +50,7 @@ const Headphone = ({
                 {headClr} | {headType}
               </p>
               <p className={styles.detailTxt2}>{headDesc}</p>
-              <button onClick={() => Navigate("/Details")}>Details</button>
+              <button onClick={handleItem}>Details</button>
             </>
           ) : (
             <>
