@@ -18,7 +18,7 @@ import { useMediaQuery } from "react-responsive";
 import { useNavigate } from "react-router-dom";
 const Home = () => {
   const Navigate = useNavigate();
-  const isMobile = useMediaQuery({maxWidth:391});
+  const isMobile = useMediaQuery({ maxWidth: 391 });
   const [filters, setFilters] = useState({
     brandName: "",
     brandtype: "",
@@ -49,10 +49,9 @@ const Home = () => {
       setEmptyProd(true);
     }
     if (getProd && getProd.data) {
-      console.log(getProd.data);
+      
       setAllItems(getProd.data.prod);
       setEmptyProd(false);
-      // console.log(allItems);
     } else {
       console.log("Couldnt get products");
     }
@@ -74,95 +73,101 @@ const Home = () => {
   return (
     <>
       <div>
-        {!isMobile&&(<>
-          <Header />
-        <div className={styles.homeBedCrump}>
-          <div className={styles.bedCrumpLogo}>
-            <BedCrums />
-          </div>
-          <div className={styles.homeCartButton}>
-            <button onClick={()=>Navigate('/Mycart')}>
-              <img src={cart} alt="" /> View Cart
-            </button>
-          </div>
-        </div>
-        </>)}
+        {!isMobile && (
+          <>
+            <Header />
+            <div className={styles.homeBedCrump}>
+              <div className={styles.bedCrumpLogo}>
+                <BedCrums bedCrump={true} />
+              </div>
+              <div className={styles.homeCartButton}>
+                <button onClick={() => Navigate("/Mycart")}>
+                  <img src={cart} alt="" /> View Cart
+                </button>
+              </div>
+            </div>
+          </>
+        )}
         <div className={styles.homePoster}>
           <img src={Image1} alt="" />
           <img src={Image2} alt="" />
           <img src={Image3} alt="" />
           <img src={Image4} alt="" />
         </div>
-        {!isMobile&&(<div className={styles.homeSearchBar}>
-          <img src={search} alt="" />
-          <input
-            type="text"
-            name="brandName"
-            id=""
-            placeholder="Search Product"
-            onChange={handleFilters}
-          />
-        </div>)}
+        {!isMobile && (
+          <div className={styles.homeSearchBar}>
+            <img src={search} alt="" />
+            <input
+              type="text"
+              name="brandName"
+              id=""
+              placeholder="Search Product"
+              onChange={handleFilters}
+            />
+          </div>
+        )}
         <div className={styles.homeFilters}>
-          {!isMobile&&(<div className={styles.homeViews}>
-            <div className={styles.homeGridView} onClick={handleView}>
-              <div>
-                <div
-                  className={styles.gridBox1}
-                  style={{ backgroundColor: !listView && "#000" }}
-                ></div>
-                <div
-                  className={styles.gridBox2}
-                  style={{ backgroundColor: !listView && "#000" }}
-                ></div>
+          {!isMobile && (
+            <div className={styles.homeViews}>
+              <div className={styles.homeGridView} onClick={handleView}>
+                <div>
+                  <div
+                    className={styles.gridBox1}
+                    style={{ backgroundColor: !listView && "#000" }}
+                  ></div>
+                  <div
+                    className={styles.gridBox2}
+                    style={{ backgroundColor: !listView && "#000" }}
+                  ></div>
+                </div>
+                <div>
+                  <div
+                    className={styles.gridBox3}
+                    style={{ backgroundColor: !listView && "#000" }}
+                  ></div>
+                  <div
+                    className={styles.gridBox4}
+                    style={{ backgroundColor: !listView && "#000" }}
+                  ></div>
+                </div>
               </div>
-              <div>
-                <div
-                  className={styles.gridBox3}
-                  style={{ backgroundColor: !listView && "#000" }}
-                ></div>
-                <div
-                  className={styles.gridBox4}
-                  style={{ backgroundColor: !listView && "#000" }}
-                ></div>
+              <div className={styles.homeListView} onClick={handleView}>
+                <div className={styles.listBox}>
+                  <div
+                    className={styles.listBox1}
+                    style={{ backgroundColor: listView && "#000" }}
+                  ></div>
+                  <div
+                    className={styles.listBox2}
+                    style={{ backgroundColor: listView && "#000" }}
+                  ></div>
+                </div>
+                <div className={styles.listBox}>
+                  <div
+                    className={styles.listBox1}
+                    style={{ backgroundColor: listView && "#000" }}
+                  ></div>
+                  <div
+                    className={styles.listBox2}
+                    style={{ backgroundColor: listView && "#000" }}
+                  ></div>
+                </div>
+                <div className={styles.listBox}>
+                  <div
+                    className={styles.listBox1}
+                    style={{ backgroundColor: listView && "#000" }}
+                  ></div>
+                  <div
+                    className={styles.listBox2}
+                    style={{ backgroundColor: listView && "#000" }}
+                  ></div>
+                </div>
               </div>
             </div>
-            <div className={styles.homeListView} onClick={handleView}>
-              <div className={styles.listBox}>
-                <div
-                  className={styles.listBox1}
-                  style={{ backgroundColor: listView && "#000" }}
-                ></div>
-                <div
-                  className={styles.listBox2}
-                  style={{ backgroundColor: listView && "#000" }}
-                ></div>
-              </div>
-              <div className={styles.listBox}>
-                <div
-                  className={styles.listBox1}
-                  style={{ backgroundColor: listView && "#000" }}
-                ></div>
-                <div
-                  className={styles.listBox2}
-                  style={{ backgroundColor: listView && "#000" }}
-                ></div>
-              </div>
-              <div className={styles.listBox}>
-                <div
-                  className={styles.listBox1}
-                  style={{ backgroundColor: listView && "#000" }}
-                ></div>
-                <div
-                  className={styles.listBox2}
-                  style={{ backgroundColor: listView && "#000" }}
-                ></div>
-              </div>
-            </div>
-          </div>)}
+          )}
           <div className={styles.filters}>
-            {
-              isMobile&&(<select
+            {isMobile && (
+              <select
                 name="sorted"
                 id=""
                 className={styles.sortFilter}
@@ -174,8 +179,8 @@ const Home = () => {
                 <option value="Price:Highest">Price:Highest</option>
                 <option value="Name:(A-Z)">Name:(A-Z)</option>
                 <option value="Name:(Z-A)">Name:(Z-A)</option>
-              </select>)
-            }
+              </select>
+            )}
             <select
               name="brandtype"
               id=""
@@ -228,19 +233,21 @@ const Home = () => {
               <option value="₹1000 - ₹10000">₹1000 - ₹10000</option>
               <option value="₹10000 - ₹20000">₹10000 - ₹20000</option>
             </select>
-            {!isMobile&&(<select
-              name="sorted"
-              id=""
-              className={styles.sortFilter}
-              onChange={handleFilters}
-            >
-              <option value="">Sort by:</option>
-              <option value="Featured">Featured</option>
-              <option value="Price:Lowest">Price:Lowest</option>
-              <option value="Price:Highest">Price:Highest</option>
-              <option value="Name:(A-Z)">Name:(A-Z)</option>
-              <option value="Name:(Z-A)">Name:(Z-A)</option>
-            </select>)}
+            {!isMobile && (
+              <select
+                name="sorted"
+                id=""
+                className={styles.sortFilter}
+                onChange={handleFilters}
+              >
+                <option value="">Sort by:</option>
+                <option value="Featured">Featured</option>
+                <option value="Price:Lowest">Price:Lowest</option>
+                <option value="Price:Highest">Price:Highest</option>
+                <option value="Name:(A-Z)">Name:(A-Z)</option>
+                <option value="Name:(Z-A)">Name:(Z-A)</option>
+              </select>
+            )}
           </div>
         </div>
         <div style={headProds}>

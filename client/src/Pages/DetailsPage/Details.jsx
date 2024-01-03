@@ -3,18 +3,18 @@ import styles from "./Details.module.css";
 import Header from "../../Components/Header/Header";
 import BedCrums from "../../Components/BedCrums/BedCrums";
 import cart from "../../assets/cartImage.svg";
-// import tmp from "../../assets/tmpImage.jpg";
 import star from "../../assets/Star.svg";
 import Footer from "../../Components/Footer/Footer";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 import { myContext } from "../../Contexts/myContext";
 import { useNavigate } from "react-router-dom";
 import { addItems } from "../../apis/products";
 const Details = () => {
   const prodDetails = JSON.parse(localStorage.getItem("itemDetails"));
   const { login } = useContext(myContext);
-
+  const [cartMessage, setCartMessage] = useState("");
   const Navigate = useNavigate();
-
   const handleBuy = () => {
     if (login) {
       Navigate("/Checkout");
@@ -25,8 +25,16 @@ const Details = () => {
   const handleAddItem = async () => {
     const addCart = await addItems({ _id: prodDetails._id });
     if (addCart) {
-      console.log(addCart.data.message);
+      
+      setCartMessage(addCart.data.message);
+      showToast();
     }
+  };
+  const showToast = () => {
+    toast(cartMessage, {
+      position: toast.POSITION.BOTTOM_CENTER,
+      className: "toast",
+    });
   };
 
   return (
@@ -37,13 +45,13 @@ const Details = () => {
           <BedCrums />
         </div>
         <div className={styles.cartButton}>
-          <button onClick={()=>Navigate('/Mycart')}>
+          <button onClick={() => Navigate("/Mycart")}>
             <img src={cart} alt="" /> View Cart
           </button>
         </div>
       </div>
       <div className={styles.backBtn}>
-        <button onClick={()=>Navigate('/')}>Back to products</button>
+        <button onClick={() => Navigate("/")}>Back to products</button>
       </div>
       <p className={styles.briefDesc}>{prodDetails.briefDescription}</p>
       <div className={styles.details}>
@@ -66,17 +74,6 @@ const Details = () => {
                 <p>more images are not available</p>
               </>
             )}
-
-            {/* 
-            <div>
-              <img src={tmp} alt="" />
-            </div> */}
-            {/* <div>
-                    <img src={tmp} alt="" />
-                </div>
-                <div>
-                    <img src={tmp} alt="" />
-                </div> */}
           </div>
         </div>
         <div className={styles.detailsRight}>
@@ -109,7 +106,7 @@ const Details = () => {
             Available <span>- In stock</span>
           </p>
           <p className={styles.brand}>
-            Brand <span> - Sony</span>
+            Brand <span> - {prodDetails.brand}</span>
           </p>
           <div className={styles.buyBtns}>
             <button onClick={handleAddItem}>Add to cart</button>
@@ -117,6 +114,9 @@ const Details = () => {
           </div>
         </div>
       </div>
+      <ToastContainer
+        toastStyle={{ backgroundColor: "#ffd600", color: "#000" }}
+      />
       <Footer />
     </>
   );

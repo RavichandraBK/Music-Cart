@@ -10,8 +10,8 @@ const headphones = mong.model("headphones", {
   color: String,
   featured: Boolean,
 });
-const cartItems = mong.model("cartItems",{
-  items:[mong.Schema.Types.ObjectId]
-})
+const cartItems = mong.model("cartItems", {
+  items: [mong.Schema.Types.ObjectId],
+});
 
-module.exports = {headphones,cartItems};
+module.exports = { headphones, cartItems };

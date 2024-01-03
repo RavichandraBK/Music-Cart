@@ -8,9 +8,9 @@ import { LoginUser } from "../../apis/auth";
 import { useNavigate } from "react-router-dom";
 import { myContext } from "../../Contexts/myContext";
 const Login = () => {
-  const isMobile = useMediaQuery({maxWidth:391});
+  const isMobile = useMediaQuery({ maxWidth: 391 });
   const Navigate = useNavigate();
-  const {setLogin} = useContext(myContext);
+  const { setLogin } = useContext(myContext);
   const [invalid, setInvalid] = useState(false);
   const [userLogin, setUserLogin] = useState({
     emailId: "",
@@ -19,39 +19,43 @@ const Login = () => {
   const handleLogin = async () => {
     const chkUser = await LoginUser(userLogin);
     if (chkUser && chkUser.data) {
-      console.log(chkUser.data)
-      if(chkUser.data.message==="User doesnt exists"){
+      if (chkUser.data.message === "User doesnt exists") {
         setInvalid(true);
-      }else{
-
-          localStorage.setItem("Username", chkUser.data.name);
-          localStorage.setItem("token", chkUser.data.token);
-          setUserLogin({ ...userLogin, emailId: "", password: "" });
-          setLogin(true);
-          Navigate("/");
+      } else {
+        localStorage.setItem("Username", chkUser.data.name);
+        localStorage.setItem("token", chkUser.data.token);
+        setUserLogin({ ...userLogin, emailId: "", password: "" });
+        setLogin(true);
+        Navigate("/");
       }
-      }
-     else {
+    } else {
       console.log("Something went wrong in Backend");
     }
   };
   return (
     <>
-        {isMobile&&(<><Header/>
-        <p className={styles.welComeTxt}>Welcome</p>
-        </>)}
-      {!isMobile&&<div className={styles.loginLogo}>
-        <BedCrums
-          logoHeight={"6vmin"}
-          imgWidth={"5.38vmin"}
-          imgHeight={"5.38vmin"}
-          textSize={"3.99vmin"}
-        />
-      </div>}
+      {isMobile && (
+        <>
+          <Header />
+          <p className={styles.welComeTxt}>Welcome</p>
+        </>
+      )}
+      {!isMobile && (
+        <div className={styles.loginLogo}>
+          <BedCrums
+            logoHeight={"6vmin"}
+            imgWidth={"5.38vmin"}
+            imgHeight={"5.38vmin"}
+            textSize={"3.99vmin"}
+          />
+        </div>
+      )}
       <div className={styles.loginOutline}>
         <div className={styles.loginBoxBorder}>
           <div className={styles.loginBox}>
-            <p className={styles.signInLogo}>Sign in {isMobile&&<span>Haribol</span>}</p>
+            <p className={styles.signInLogo}>
+              Sign in {isMobile && <span>Haribol</span>}
+            </p>
             <div className={styles.loginText1}>
               <label htmlFor="">Enter your email or mobile number</label>
               <input
@@ -91,7 +95,11 @@ const Login = () => {
           </div>
         </div>
       </div>
-      {invalid && <div className={styles.invalid}><p >Invalid Credentials</p></div>}
+      {invalid && (
+        <div className={styles.invalid}>
+          <p>Invalid Credentials</p>
+        </div>
+      )}
       <div className={styles.loginLine}>
         <div></div>
         <p>New to Musicart?</p>

@@ -1,23 +1,21 @@
-import React, { useContext, useState } from "react";
+import React, { useContext } from "react";
 import Header from "../../Components/Header/Header";
 import Footer from "../../Components/Footer/Footer";
 import BedCrums from "../../Components/BedCrums/BedCrums";
 import styles from "./Checkout.module.css";
-import tmp from "../../assets/tmpImage.jpg";
 import { useNavigate } from "react-router-dom";
 import { myContext } from "../../Contexts/myContext";
 const Checkout = () => {
   const prodDetails = JSON.parse(localStorage.getItem("itemDetails"));
-  const {login} = useContext(myContext);
+  const { login } = useContext(myContext);
   const Navigate = useNavigate();
-  const handleOrder = ()=>{
-    if(login){
-      Navigate('/Success');
+  const handleOrder = () => {
+    if (login) {
+      Navigate("/Success");
+    } else {
+      Navigate("/Login");
     }
-    else{
-      Navigate('/Login');
-    }
-  }
+  };
   return (
     <>
       <Header />
@@ -27,7 +25,7 @@ const Checkout = () => {
         </div>
       </div>
       <div className={styles.backBtn}>
-        <button onClick={()=>Navigate('/Mycart')}>Back to Cart</button>
+        <button onClick={() => Navigate("/Mycart")}>Back to Cart</button>
       </div>
       <p className={styles.checkOutText}>Checkout</p>
       <div className={styles.checkOut}>
@@ -53,13 +51,14 @@ const Checkout = () => {
                 <p>Colour : {prodDetails.color}</p>
                 <p>In Stock</p>
                 <p>Estimated delivery : Monday — FREE Standard Delivery</p>
-                {/* <p>Hare Krishsna</p> */}
               </div>
             </div>
           </div>
           <div className={styles.lineBar}></div>
           <div className={styles.finalOrderOutline}>
-            <button onClick={handleOrder}>{login?"Place your order":"Login"}</button>
+            <button onClick={handleOrder}>
+              {login ? "Place your order" : "Login"}
+            </button>
             <div>
               <p>Order Total : ₹{prodDetails.price + 45}.00</p>
               <p>
@@ -72,7 +71,9 @@ const Checkout = () => {
         <div className={styles.checkOutRight}>
           <div>
             <div className={styles.sumBorder}>
-              <button onClick={handleOrder}>{login?"Place your order":"Login"}</button>
+              <button onClick={handleOrder}>
+                {login ? "Place your order" : "Login"}
+              </button>
               <p>
                 By placing your order, you agree to Musicart privacy notice and
                 conditions of use.
@@ -98,7 +99,7 @@ const Checkout = () => {
           </div>
         </div>
       </div>
-      {/* <Footer/> */}
+      <Footer />
     </>
   );
 };

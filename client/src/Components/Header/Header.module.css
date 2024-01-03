@@ -1,8 +1,8 @@
 .header {
-    position: fixed;
-    width: 100%;
-    top: 0vmin;
-    height: 7.629vmin;
+  position: fixed;
+  width: 100%;
+  top: 0vmin;
+  height: 7.629vmin;
   display: flex;
   background-color: #2e0052;
   justify-content: space-between;
@@ -15,23 +15,23 @@
   text-align: left;
   color: #fff;
 }
-.header>p:nth-child(1){
-    margin-left: 2rem;
+.header > p:nth-child(1) {
+  margin-left: 2rem;
 }
-.header>p:nth-child(1)>img{
-    vertical-align: middle;
+.header > p:nth-child(1) > img {
+  vertical-align: middle;
 }
-.header>p:nth-child(3){
-    margin-right: 2rem;
-    cursor: pointer;
+.header > p:nth-child(3) {
+  margin-right: 2rem;
+  cursor: pointer;
 }
-.logedOutTxt{
-    display: flex;
-    margin-right: 3vmin;
+.logedOutTxt {
+  display: flex;
+  margin-right: 3vmin;
 }
-.logedOutTxt>p{  
-    cursor: pointer;
-    font-family: Roboto;
+.logedOutTxt > p {
+  cursor: pointer;
+  font-family: Roboto;
   font-size: 1.125rem;
   font-weight: 500;
   line-height: 1.312rem;
@@ -39,11 +39,11 @@
   text-align: left;
   color: #fff;
 }
-@media only screen and (max-width:391px){
-    .logo{
-        margin-left: 5vmin;
-    }
-    .header{
-        height: 12.2vmin;
-    }
+@media only screen and (max-width: 391px) {
+  .logo {
+    margin-left: 5vmin;
+  }
+  .header {
+    height: 12.2vmin;
+  }
 }

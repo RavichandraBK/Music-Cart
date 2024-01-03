@@ -1,9 +1,6 @@
-import React, { useContext, useEffect, useState } from "react";
-// import tmp from "../../assets/tmpImage.jpg";
 import styles from "./Headphone.module.css";
 import addItem from "../../assets/addToCart.png";
-// import { myContext } from "../../Contexts/myContext";
-import { ToastContainer, toast } from "react-toastify";
+
 import { useNavigate } from "react-router-dom";
 import { addItems } from "../../apis/products";
 const Headphone = ({
@@ -18,18 +15,15 @@ const Headphone = ({
   setCartMsg,
   handleToast,
 }) => {
-  // const {singleItem,setSingleItem} = useContext(myContext);
   const Navigate = useNavigate();
 
   const handleItem = () => {
-    // setSingleItem({...singleItem,zprodDetails:headItem});
     localStorage.setItem("itemDetails", JSON.stringify(headItem));
     Navigate("/Details");
   };
   const handleAddItem = async () => {
     const addCart = await addItems({ _id: headItem._id });
     if (addCart) {
-      // console.log(addCart.data.message);
       setCartMsg(addCart.data.message);
       handleToast();
     }
@@ -56,7 +50,7 @@ const Headphone = ({
                 {headClr} | {headType}
               </p>
               <p className={styles.detailTxt2}>{headDesc}</p>
-              <button onClick={()=>Navigate('/Details')}>Details</button>
+              <button onClick={() => Navigate("/Details")}>Details</button>
             </>
           ) : (
             <>
@@ -67,12 +61,6 @@ const Headphone = ({
               </p>
             </>
           )}
-
-          {/* <p className={styles.flexTxt}>{headName}</p>
-          <p className={styles.detailTxt2}>Price - ₹ {headPrice}</p>
-          <p className={styles.detailTxt2}>{headClr} | {headType}</p>
-          <p className={styles.detailTxt2}>{headDesc}</p>
-          <button>Haribol</button> */}
         </div>
       </div>
     </>

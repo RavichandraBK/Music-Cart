@@ -137,6 +137,7 @@
 
 .itemQty > select {
   width: 10vmin;
+  cursor: pointer;
 }
 .itemTotal {
   margin-right: 5vmin;
@@ -147,10 +148,10 @@
 }
 .barType2 {
   border: 0.05vmin solid #e1e1e1;
-  /* width: .2vmin; */
+
   height: 0.2vmin;
   transform: scaleY(90);
-  /* margin-left: 10vmin; */
+
   margin-top: 18vmin;
 }
 .barType3 {
@@ -169,7 +170,7 @@
   font-weight: 500;
   line-height: 0vmin;
   letter-spacing: 0em;
-  /* text-align: left; */
+
   text-align: center;
 }
 .itemCount > p:nth-child(2) {
@@ -179,7 +180,7 @@
   font-weight: 500;
   line-height: 0vmin;
   letter-spacing: 0em;
-  /* text-align: left; */
+
   text-align: center;
 }
 .cartRight {
@@ -244,4 +245,17 @@
   line-height: 3vmin;
   letter-spacing: 0.02em;
   text-align: center;
+}
+.EmptyCart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.EmptyCart > p {
+  font-size: 5vmin;
+  font-family: Roboto;
+  font-weight: 500;
+  line-height: 3vmin;
+  text-align: center;
+  color: #e82121;
 }

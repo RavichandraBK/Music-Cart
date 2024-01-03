@@ -15,8 +15,8 @@
   text-align: center;
   color: #fff;
 }
-@media only screen and (max-width:391px){
-  .footer{
+@media only screen and (max-width: 391px) {
+  .footer {
     height: 12.5vmin;
     top: 158vmin;
     font-size: 4vmin;

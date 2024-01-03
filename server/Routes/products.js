@@ -1,12 +1,11 @@
 const express = require("express");
 const router = express.Router();
 const { headphones, cartItems } = require("../Models/headphones");
-// const verify = require("../Middleware/verifyauth");
+
 router.post("/add-items", async (req, res) => {
   const { _id } = req.body;
   try {
     const cart = await cartItems.findOne({ items: { $in: _id } });
-    // console.log(cart)
     if (!cart) {
       const newItem = await cartItems.updateOne({ $addToSet: { items: _id } });
       res.send({ message: "✅Successfully added the item to cart", newItem });
@@ -17,20 +16,29 @@ router.post("/add-items", async (req, res) => {
     console.log("Something went wrong couldnt fetch the products");
   }
 });
-
+router.get("/delete-cart", async (req, res) => {
+  try {
+    await cartItems.updateMany({ $set: { items: [] } });
+    res.json({ message: "Cart is empty now" });
+  } catch (error) {
+    res.status(401).json({ message: "Couldnt empty cart" });
+  }
+});
 router.get("/cart-items", async (req, res) => {
   try {
     const getCart = await cartItems.find({});
-    // console.log(getCart[0].items);
+
     if (!getCart) {
-      res.json({ message: "Item not found" });
+      res.json({ message: "Items not found" });
     } else {
-      const cartProd = await Promise.all(
-        getCart[0].items.map(async (itemId) => {
-          // console.log(itemId);
-          return await headphones.findOne({ _id: itemId });
-        })
-      );
+      const cartProd =
+        getCart[0].items.length > 0
+          ? await Promise.all(
+              getCart[0].items.map(async (itemId) => {
+                return await headphones.findOne({ _id: itemId });
+              })
+            )
+          : [];
       res.json({ message: "Successful", cartProd });
     }
   } catch (err) {
@@ -45,10 +53,9 @@ router.post("/filters", async (req, res) => {
     const noFilters =
       !brandName && !brandtype && !sorted && !prodPrice && !brandcolor;
     const sortCriteria = {};
-    console.log(!noFilters);
+
     let query = {};
     if (!noFilters) {
-      console.log(brandName);
       if (brandName) {
         query.name = { $regex: brandName, $options: "i" };
       }
@@ -69,9 +76,8 @@ router.post("/filters", async (req, res) => {
           sortCriteria.featured = -1;
         } else if (sortType.startsWith("price")) {
           const order = sortType.split(":")[1] === "lowest" ? 1 : -1;
-          console.log(sortType.split(":")[1]);
+
           sortCriteria.price = order;
-          // console.log(sortCriteria)
         } else if (sortType.startsWith("name")) {
           const order = sortType.split(":")[1] === "(a-z)" ? 1 : -1;
           sortCriteria.name = order;
@@ -81,9 +87,7 @@ router.post("/filters", async (req, res) => {
     let prod;
     if (Object.keys(query).length === 0 && query.constructor === Object) {
       prod = await headphones.find({}).sort(sortCriteria);
-      console.log("Hari Hari");
     } else {
-      console.log("Haribol");
       prod = await headphones.find(query).sort(sortCriteria);
     }
 
@@ -96,6 +100,5 @@ router.post("/filters", async (req, res) => {
     console.log(err, "Something went wrong ,couldnt fetch the products");
   }
 });
-// router.post('/')
 
 module.exports = router;

@@ -1,5 +1,4 @@
 .product {
-  /* display: flex; */
   margin-top: 10vmin;
 }
 .productPic {
@@ -10,6 +9,7 @@
 .productPic > img {
   width: 30vmin;
   height: 30vmin;
+  cursor: pointer;
 }
 .cart {
   position: relative;
@@ -21,6 +21,7 @@
   border-radius: 100%;
   box-shadow: 0.2vmin 0.3vmin 6vmin 0.2vmin;
   overflow: hidden;
+  cursor: pointer;
   background-color: #fff;
   top: 2.2vmin;
   left: 27vmin;
@@ -75,6 +76,7 @@
   background-color: #2e0052;
   margin-left: 2.5vmin;
   color: #fff;
+  cursor: pointer;
 
   font-family: Roboto;
   font-size: 3vmin;

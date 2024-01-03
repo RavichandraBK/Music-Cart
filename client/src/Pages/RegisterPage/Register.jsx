@@ -19,7 +19,7 @@ const Register = () => {
   const isMobile = useMediaQuery({ maxWidth: 391 });
   const handleRegister = async () => {
     const chkUser = await RegisterUser(newUser);
-    console.log(chkUser.data.errors);
+    
     if (chkUser && chkUser.data) {
       if (chkUser.data.message === "User already exists, kindly login") {
         setUserExists(true);

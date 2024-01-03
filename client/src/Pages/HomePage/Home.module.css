@@ -16,6 +16,7 @@
   border-radius: 6.4vmin;
   background-color: #1d7000;
   border: none;
+  cursor: pointer;
   font-family: Roboto;
   font-size: 22px;
   font-weight: 400;
@@ -27,7 +28,7 @@
 .homeCartButton > button > img {
   vertical-align: middle;
 }
-.homePoster{
+.homePoster {
   text-align: center;
 }
 .homePoster > img:nth-child(1) {
@@ -70,11 +71,8 @@
   text-indent: 8vmin;
   text-align: left;
   color: #000;
-
-  /* border: 3px; */
 }
 .homeSearchBar > input::placeholder {
-  /* padding-left: 8vmin; */
   font-family: Roboto;
   font-size: 2.5vmin;
   font-weight: 400;
@@ -91,34 +89,34 @@
   left: 8vmin;
 }
 
-.homeFilters{
+.homeFilters {
   display: flex;
   margin-top: 4vmin;
   justify-content: space-evenly;
   align-items: center;
 }
-.homeViews{
+.homeViews {
   display: flex;
   width: 50vmin;
   margin-left: 10vmin;
 }
-.homeListView{
+.homeListView {
   width: 6vmin;
   margin-left: 1vmin;
   cursor: pointer;
 }
-.homeGridView{
+.homeGridView {
   width: 6vmin;
   cursor: pointer;
 }
-.gridBox1{
+.gridBox1 {
   display: inline-block;
   width: 1.8vmin;
   height: 1.8vmin;
   border: 2px solid black;
   border-radius: 3px;
 }
-.gridBox2{
+.gridBox2 {
   margin-left: 0.5vmin;
   display: inline-block;
   width: 1.8vmin;
@@ -126,14 +124,14 @@
   border: 2px solid black;
   border-radius: 3px;
 }
-.gridBox3{
+.gridBox3 {
   display: inline-block;
   width: 1.8vmin;
   height: 1.8vmin;
   border: 2px solid black;
   border-radius: 3px;
 }
-.gridBox4{
+.gridBox4 {
   margin-left: 0.5vmin;
   display: inline-block;
   width: 1.8vmin;
@@ -141,17 +139,17 @@
   border: 2px solid black;
   border-radius: 3px;
 }
-.listBox{
+.listBox {
   line-height: 0.8;
 }
-.listBox1{
+.listBox1 {
   display: inline-block;
   width: 1vmin;
   height: 1vmin;
   border: 2px solid black;
   border-radius: 3px;
 }
-.listBox2{
+.listBox2 {
   margin-left: 0.2vmin;
   display: inline-block;
   width: 3vmin;
@@ -159,7 +157,7 @@
   border: 2px solid black;
   border-radius: 3px;
 }
-.filters{
+.filters {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -167,75 +165,73 @@
   margin-right: 12vmin;
 }
 
-.filters>select{
+.filters > select {
   appearance: none;
   overflow: hidden;
   text-align: left;
 }
-.filters>select>option{
+.filters > select > option {
   background-color: #fff;
 }
 
-.filterType1{
+.filterType1 {
   padding-left: 3vmin;
   padding-right: 5vmin;
   height: 5vmin;
-  background-image: url('../../assets/dropdown_arrow.svg');
+  background-image: url("../../assets/dropdown_arrow.svg");
   background-repeat: no-repeat;
   background-position: 30vmin 2vmin;
   cursor: pointer;
- 
+
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #D9D9D9;
+  background-color: #d9d9d9;
   border-radius: 4.63vmin;
-  border: none  ;
+  border: none;
   font-family: Roboto;
-font-size: 23px;
-font-weight: 500;
-line-height: 27px;
-letter-spacing: 0em;
-text-align: center;
-
+  font-size: 23px;
+  font-weight: 500;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: center;
 }
-.arrow1{
+.arrow1 {
   background-position: 16vmin 2vmin;
   margin-left: 3vmin;
 }
-.arrow2{
+.arrow2 {
   background-position: 15vmin 2vmin;
   margin-left: 3vmin;
 }
-.arrow3{
+.arrow3 {
   background-position: 25vmin 2vmin;
   margin-left: 3vmin;
 }
-.sortFilter{
+.sortFilter {
   padding-left: 3vmin;
   padding-right: 5vmin;
   height: 5vmin;
-  background-image: url('../../assets/dropdown_arrow.svg');
+  background-image: url("../../assets/dropdown_arrow.svg");
   background-repeat: no-repeat;
   background-position: 21vmin 1.8vmin;
   cursor: pointer;
   margin-left: 23vmin;
-  /* margin-right: 12vmin; */
- 
+
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   border-radius: 4.63vmin;
-  border: 3px solid #E1E1E1;
+  border: 3px solid #e1e1e1;
   font-family: Roboto;
-font-size: 23px;
-font-weight: 500;
-line-height: 27px;
-letter-spacing: 0em;
-text-align: center;
+  font-size: 23px;
+  font-weight: 500;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: center;
 }
-.EmptyProd{
+.EmptyProd {
   margin-left: 10vmin;
   font-size: 5vmin;
   font-family: Roboto;

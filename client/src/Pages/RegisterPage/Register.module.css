@@ -118,7 +118,7 @@
   font-weight: 400;
   text-decoration: underline;
 }
-.invalid{
+.invalid {
   display: inline-block;
   margin-top: 1.6vmin;
   font-family: Roboto;
@@ -126,74 +126,72 @@
   font-weight: 500;
   line-height: 0vmin;
   text-align: center;
-  color: #F81221;
+  color: #f81221;
 }
-@media only screen and (max-width:391px) {
-  .welComeTxt{
+@media only screen and (max-width: 391px) {
+  .welComeTxt {
     margin-top: 20vmin;
     margin-left: 8vmin;
     font-family: Roboto;
-font-size: 10vmin;
-font-weight: 400;
-line-height: 4vmin;
-letter-spacing: 0em;
-text-align: left;
-color: #2E0052;
+    font-size: 10vmin;
+    font-weight: 400;
+    line-height: 4vmin;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #2e0052;
   }
-  .registerOutline{
-    /* margin-top: 25vmin; */
-  }
-  .registerBoxBorder{
+
+  .registerBoxBorder {
     width: 85vmin;
     height: 110vmin;
   }
-.registerBox{
-  height: fit-content;
-}
-.createAccText{
-  margin-top: 5vmin;
-  width: 80vmin;
-  font-size: 4.5vmin;
-  font-weight: 600;
-  line-height: 1vmin;
-  text-align: left;
-  line-height: 0vmin;
-}
-.createAccText>span{
-  font-family: Roboto;
-font-size: 4vmin;
-font-weight: 300;
-line-height: 0vmin;
-letter-spacing: 0em;
-text-align: left;
-}
-.registerText > label{
-  font-size: 3.5vmin;
-  margin-top: 3vmin;
-  line-height: 6vmin;
-}
-.registerText > input{
-width: 75vmin;
-height: 6vmin;
-}
-.registerDesc{
-  width: 70vmin;
-  font-size: 2.3vmin;
-}
-.registerBox> button{
-  width: 75vmin;
-  height: 10vmin;
-  font-size: 4.5vmin;
-}
-.registerCond{
-  width: 70vmin;
-  font-size: 2.3vmin;
-}
-.signInText{
-  font-size: 3vmin;
-  font-weight: 700;
-}
-.invalid{
-  font-size: 2.5vmin;
-}
+  .registerBox {
+    height: fit-content;
+  }
+  .createAccText {
+    margin-top: 5vmin;
+    width: 80vmin;
+    font-size: 4.5vmin;
+    font-weight: 600;
+    line-height: 1vmin;
+    text-align: left;
+    line-height: 0vmin;
+  }
+  .createAccText > span {
+    font-family: Roboto;
+    font-size: 4vmin;
+    font-weight: 300;
+    line-height: 0vmin;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .registerText > label {
+    font-size: 3.5vmin;
+    margin-top: 3vmin;
+    line-height: 6vmin;
+  }
+  .registerText > input {
+    width: 75vmin;
+    height: 6vmin;
+  }
+  .registerDesc {
+    width: 70vmin;
+    font-size: 2.3vmin;
+  }
+  .registerBox > button {
+    width: 75vmin;
+    height: 10vmin;
+    font-size: 4.5vmin;
+  }
+  .registerCond {
+    width: 70vmin;
+    font-size: 2.3vmin;
+  }
+  .signInText {
+    font-size: 3vmin;
+    font-weight: 700;
+  }
+  .invalid {
+    font-size: 2.5vmin;
+  }
 }

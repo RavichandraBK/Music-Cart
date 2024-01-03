@@ -2,11 +2,11 @@
   display: flex;
   height: 10vmin;
   cursor: pointer;
-  /* margin-top: 3vmin; */
+  
   align-items: center;
 }
 
-.logoText{
+.logoText {
   margin-left: 1vmin;
   font-family: Roboto;
   font-size: 5.99vmin;
@@ -21,11 +21,13 @@
   vertical-align: middle;
   width: 8.58vmin;
   height: 8.58vmin;
-  /* margin-left: 4vmin; */
+  
 }
 .bedCrumsText {
-  margin-top: 3.5vmin;
+  
   margin-left: 2vmin;
+  display: flex;
+  align-items: center;
   font-family: Roboto;
   font-size: 2.54vmin;
   font-weight: 400;
@@ -33,14 +35,28 @@
   letter-spacing: 0em;
   text-align: left;
 }
-@media only screen and (max-width:391px) {
-  .logoText{
+.bedCrumsText > ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.bedCrumsText > li {
+  display: flex;
+  align-items: center;
+}
+.bedCrumsText > span {
+  margin: 0 5px;
+}
+
+@media only screen and (max-width: 391px) {
+  .logoText {
     margin-left: 1vmin;
-  font-family: Roboto;
-  font-weight: 600;
-  line-height: 0px;
-  letter-spacing: 0em;
-  text-align: left;
-  color: #fff;
+    font-family: Roboto;
+    font-weight: 600;
+    line-height: 0px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #fff;
   }
 }

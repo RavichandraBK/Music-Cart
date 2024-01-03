@@ -150,8 +150,7 @@
   letter-spacing: 0em;
   text-align: left;
 }
-.desc {
-}
+
 .desc > p {
   font-family: Roboto;
   font-size: 2.5vmin;
@@ -209,6 +208,7 @@
   height: 5vmin;
   border: none;
   border-radius: 5.4vmin;
+  cursor: pointer;
 
   font-family: Roboto;
   font-size: 3vmin;
