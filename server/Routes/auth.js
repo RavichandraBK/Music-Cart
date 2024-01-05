@@ -40,7 +40,6 @@ router.post("/register", async (req, res) => {
     const { emailId, mobilenumber, password, username } = req.body;
     const checkUser = await user.findOne({
       emailId,
-      username,
       mobilenumber,
     });
 

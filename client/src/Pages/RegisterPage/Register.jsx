@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useContext, useState } from "react";
 import styles from "./Register.module.css";
 import BedCrums from "../../Components/BedCrums/BedCrums";
 import Footer from "../../Components/Footer/Footer";
@@ -6,10 +6,12 @@ import { useNavigate } from "react-router-dom";
 import { RegisterUser } from "../../apis/auth";
 import { useMediaQuery } from "react-responsive";
 import Header from "../../Components/Header/Header";
+import { myContext } from "../../Contexts/myContext";
 const Register = () => {
   const [errors, setErrors] = useState("");
   const [userExists, setUserExists] = useState(false);
   const Navigate = useNavigate();
+  const { setLogin } = useContext(myContext);
   const [newUser, setNewUser] = useState({
     emailId: "",
     mobilenumber: "",
@@ -19,12 +21,11 @@ const Register = () => {
   const isMobile = useMediaQuery({ maxWidth: 391 });
   const handleRegister = async () => {
     const chkUser = await RegisterUser(newUser);
-    
+
     if (chkUser && chkUser.data) {
       if (chkUser.data.message === "User already exists, kindly login") {
         setUserExists(true);
-      }
-      if (Object.keys(chkUser.data).includes("errors")) {
+      } else if (Object.keys(chkUser.data).includes("errors")) {
         const parsed = {};
         chkUser.data.errors.forEach((curr) => {
           const [invalidError, message] = curr.split(":");
@@ -43,6 +44,7 @@ const Register = () => {
           mobilenumber: "",
           username: "",
         });
+        setLogin(true);
         Navigate("/");
       }
     } else {
@@ -87,6 +89,7 @@ const Register = () => {
                     username: "",
                     password: "",
                   });
+                  setUserExists(false);
                 }}
               />
             </div>
@@ -109,6 +112,7 @@ const Register = () => {
                     username: "",
                     password: "",
                   });
+                  setUserExists(false);
                 }}
               />
             </div>
@@ -130,6 +134,7 @@ const Register = () => {
                     username: "",
                     password: "",
                   });
+                  setUserExists(false);
                 }}
               />
             </div>
@@ -151,11 +156,14 @@ const Register = () => {
                     username: "",
                     password: "",
                   });
+                  setUserExists(false);
                 }}
               />
             </div>
             {errors.password && (
-              <span className={styles.invalid}>{errors.password}</span>
+              <div className={styles.invalid}>
+                <span>{errors.password}</span>
+              </div>
             )}
             <p className={styles.registerDesc}>
               By enrolling your mobile phone number, you consent to receive

@@ -119,8 +119,10 @@
   text-decoration: underline;
 }
 .invalid {
-  display: inline-block;
-  margin-top: 1.6vmin;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1.3vmin;
   font-family: Roboto;
   font-size: 2vmin;
   font-weight: 500;
