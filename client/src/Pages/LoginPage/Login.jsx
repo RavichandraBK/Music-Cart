@@ -54,7 +54,7 @@ const Login = () => {
         <div className={styles.loginBoxBorder}>
           <div className={styles.loginBox}>
             <p className={styles.signInLogo}>
-              Sign in {isMobile && <span>Haribol</span>}
+              Sign in {isMobile && <span>Already a customer?</span>}
             </p>
             <div className={styles.loginText1}>
               <label htmlFor="">Enter your email or mobile number</label>
