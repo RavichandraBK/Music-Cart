@@ -29,7 +29,7 @@ const BedCrums = ({
       >
         Musicart
       </p>
-      {!isMobile&&pathnames.length > 0 && (
+      {!isMobile && pathnames.length > 0 && (
         <div className={styles.bedCrumsText}>
           <ul>
             <li>
