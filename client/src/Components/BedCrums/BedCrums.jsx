@@ -3,15 +3,15 @@ import musicLogo from "../../assets/webLogo.png";
 import styles from "./bedCrums.module.css";
 import { useNavigate } from "react-router-dom";
 import { useLocation, Link } from "react-router-dom";
+import { useMediaQuery } from "react-responsive";
 const BedCrums = ({
   logoHeight,
   imgWidth,
   imgHeight,
   textSize,
-  bedCrump,
-  bedCrumpNext = "",
 }) => {
   const Navigate = useNavigate();
+  const isMobile = useMediaQuery({ maxWidth: 391 });
   const location = useLocation();
   const pathnames = location.pathname.split("/").filter((x) => x);
   return (
@@ -29,7 +29,7 @@ const BedCrums = ({
       >
         Musicart
       </p>
-      {pathnames.length > 0 && (
+      {!isMobile&&pathnames.length > 0 && (
         <div className={styles.bedCrumsText}>
           <ul>
             <li>
